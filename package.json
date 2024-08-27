@@ -1,11 +1,16 @@
 {
-  "name": "simple-node-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "node-app",
+  "description": "hello my node-app",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "Kris Hill",
-  "license": "ISC"
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
